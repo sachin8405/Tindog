@@ -46,7 +46,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: ubuntu;
+  font-family: "ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -56,7 +56,7 @@ p {
 }
 
 .nav-link {
-  font-family: Montserrat-Lightfont;
+  font-family: "Montserrat-Light";
   font-size: 1.2rem;
 }
 
@@ -69,9 +69,12 @@ p {
 
 #tittle .container-fluid{
   padding: 3% 15% 7%;
+  }
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
     text-align: left;
-}
-
+  }
 
 /*tittle-image*/
 .tittle-image {
